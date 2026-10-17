@@ -33,3 +33,23 @@ This project implements a 1-bit full adder using Verilog HDL.
 ## Files
 - `fulladder.v`: Design code
 - `fulladder_tb.v`: Testbench code
+- ## How to Run the Simulation
+
+1. Install Icarus Verilog and GTKWave.
+2. Open a terminal in the folder containing the Verilog files.
+3. Compile the design and testbench:
+
+   `iverilog -o fulladder_sim fulladder.v fulladder_tb.v`
+
+4. Run the simulation:
+
+   `vvp fulladder_sim`
+
+5. Open the waveform:
+
+   `gtkwave fulladder.vcd`
+
+## Learning Outcome
+
+This project demonstrates digital logic design, Verilog coding, testbench development, and waveform analysis.
+
